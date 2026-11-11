@@ -1,3 +1,4 @@
+/* Hero section */
 #hero {
   min-height: 100vh;
   background-image:
@@ -12,4 +13,45 @@
   text-align: center;
   gap: 1rem;
   color: white;
+}
+
+/* Mobile and tablet responsive styles */
+@media screen and (max-width: 991px) {
+  /* Make the table fill the available mobile width */
+  #plan-your-visit table {
+    display: block;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  /* Display each attraction as a separate mobile card */
+  #plan-your-visit tbody tr {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #b9ab78;
+    border-radius: 0.375rem;
+  }
+  /* Stack table cells vertically on mobile */
+  #plan-your-visit tbody td {
+    display: block;
+    width: 100%;
+  }
+  /* Highlight attraction names on mobile */
+  #plan-your-visit tbody td:first-child {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  /* Allow the table body to use the full width on mobile */
+  #plan-your-visit tbody {
+    display: block;
+    width: 100%;
+  }
+  /* Hide table headers on mobile */
+  #plan-your-visit thead {
+    display: none;
+  }
+  /* Display mobile table labels on separate lines */
+#plan-your-visit tbody td strong {
+  display: block;
+}
 }
