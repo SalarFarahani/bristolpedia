@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bristolpedia | Discover Bristol</title>
+    <!-- Google Fonts: Playfair Display and Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,9 +18,8 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <!-- Header section -->
-    <header id="home">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- Navigation bar -->
+     <nav data-bs-theme="dark" class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#home">Bristolpedia</a>
           <button
@@ -44,12 +50,16 @@
           </div>
         </div>
       </nav>
+    <!-- Header section -->
+    <header id="home">
       <section id="hero">
         <h1 class="display-3">Discover Bristol</h1>
         <p class="lead">
           Find the city's top attractions and choose your next favourite place.
         </p>
-        <a class="btn btn-primary" href="#places-to-visit">Explore Places</a>
+        <a class="btn btn-primary btn-lg" href="#places-to-visit"
+          >Explore Places</a
+        >
       </section>
     </header>
 
@@ -57,7 +67,7 @@
     <main>
       <section id="places-to-visit">
         <div class="container">
-          <h2 class="text-center mt-5 mb-4">Places to Visit</h2>
+          <h2 class="text-center mb-4 display-6">Places to Visit</h2>
           <div class="row g-4">
             <div class="col-12 col-md-6">
               <div class="card">
@@ -136,9 +146,9 @@
       </section>
       <section id="plan-your-visit">
         <div class="container">
-          <h2 class="text-center mt-5 mb-4">Plan Your Visit</h2>
+          <h2 class="text-center mb-5 display-6">Plan Your Visit</h2>
           <div class="table-responsive">
-            <table class="table table-sm small">
+            <table class="table">
               <thead>
                 <tr>
                   <th scope="col">Attraction</th>
@@ -175,8 +185,8 @@
                     Bristol, BS1 5RR
                   </td>
                   <td>
-                    <strong class="d-lg-none">Opening Hours: </strong>8 am – seasonal
-                    closing times
+                    <strong class="d-lg-none">Opening Hours: </strong>8 am –
+                    seasonal closing times
                   </td>
                   <td>
                     <strong class="d-lg-none">More Information: </strong>
@@ -195,8 +205,8 @@
                     Wapping Road, Bristol, BS1 4RN
                   </td>
                   <td>
-                    <strong class="d-lg-none">Opening Hours: </strong>Tue – Sun: 10 am
-                    – 5 pm (Closed Mon)
+                    <strong class="d-lg-none">Opening Hours: </strong>Tue – Sun:
+                    10 am – 5 pm (Closed Mon)
                   </td>
                   <td>
                     <strong class="d-lg-none">More Information: </strong>
@@ -215,8 +225,8 @@
                     Bristol, BS1 1JQ
                   </td>
                   <td>
-                    <strong class="d-lg-none">Opening Hours: </strong>Mon – Sat: 9:30
-                    am – 5 pm (Closed Sun)
+                    <strong class="d-lg-none">Opening Hours: </strong>Mon – Sat:
+                    9:30 am – 5 pm (Closed Sun)
                   </td>
                   <td>
                     <strong class="d-lg-none">More Information: </strong>
@@ -239,12 +249,17 @@
     <footer class="py-4">
       <div class="container d-flex justify-content-between align-items-center">
         <p class="mb-0">© 2026 Bristolpedia</p>
-        <a href="#home">Back to Top</a>
+        <a href="#home">Back to Top <i class="fa-solid fa-arrow-up" aria-hidden="true"></i></a>
       </div>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/9bfd3899c5.js"
       crossorigin="anonymous"
     ></script>
   </body>

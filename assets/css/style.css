@@ -1,3 +1,59 @@
+/* Global typography and colours */
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #fbfcfc;
+  color: #383438;
+}
+
+/* Headings typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+/* Navbar brand typography */
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* Navbar link typography */
+.navbar .nav-link {
+  font-size: 1.1rem;
+}
+
+/* Navbar background colour */
+.navbar {
+  background-color: #173b42;
+}
+
+/* Navbar brand and link colours */
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #f7f5f0;
+}
+
+/* Active navbar link colour */
+.navbar .nav-link.active {
+  color: #f7f5f0;
+}
+
+/* Navbar link hover colour */
+.navbar .nav-link:hover {
+  color: #d4a64a;
+}
+
+/* Prevent section headings from hiding behind the sticky navbar */
+#home,
+#places-to-visit {
+  scroll-margin-top: 70px;
+}
+
 /* Hero section */
 #hero {
   min-height: 100vh;
@@ -15,6 +71,64 @@
   color: white;
 }
 
+/* Hero CTA button colours */
+#hero .btn-primary {
+  background-color: #d4a64a;
+  border-color: #d4a64a;
+  color: #263238;
+}
+
+/* Hero CTA button hover effect */
+#hero .btn-primary:hover {
+  background-color: #b88a32;
+  border-color: #b88a32;
+  color: #263238;
+}
+
+/* Places to Visit section background and spacing */
+#places-to-visit {
+  background-color: #f7f5f0;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+/* Plan Your Visit section background and spacing */
+#plan-your-visit {
+  min-height: 90vh;
+  background-color: #a8b8ae;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/bristol-harbourside.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Plan Your Visit heading colour */
+#plan-your-visit h2 {
+  color: #f7f5f0;
+}
+
+/* Plan Your Visit table header colours */
+#plan-your-visit thead th {
+  background-color: #173b42;
+  color: #f7f5f0;
+}
+
+/* Plan Your Visit website link colours */
+#plan-your-visit td a {
+  color: #173b42;
+}
+
+/* Plan Your Visit website link hover colour */
+#plan-your-visit td a:hover {
+  color: #806a31;
+}
+
 /* Mobile and tablet responsive styles */
 @media screen and (max-width: 991px) {
   /* Make the table fill the available mobile width */
@@ -23,6 +137,7 @@
     width: 100%;
     font-size: 0.9rem;
   }
+
   /* Display each attraction as a separate mobile card */
   #plan-your-visit tbody tr {
     display: block;
@@ -51,7 +166,23 @@
     display: none;
   }
   /* Display mobile table labels on separate lines */
-#plan-your-visit tbody td strong {
-  display: block;
+  #plan-your-visit tbody td strong {
+    display: block;
+  }
 }
+
+/* Footer background and text colours */
+footer {
+  background-color: #173b42;
+  color: #f7f5f0;
+}
+
+/* Footer link colour */
+footer a {
+  color: #F7F5F0;
+}
+
+/* Footer link hover colour */
+footer a:hover {
+  color: #D4A64A;
 }
