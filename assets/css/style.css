@@ -205,6 +205,14 @@ h6 {
     }
 }
 
+/* Custom styling for the contact form notice */
+#contact-notice {
+    background-color: #F7F5F0;
+    color: #173B42;
+    border: 2px solid #D4A64A;
+    border-radius: 8px;
+}
+
 /* Footer background and text colours */
 footer {
   background-color: #173b42;
