@@ -49,6 +49,8 @@ As a visitor, I want to explore places to visit, so that I can decide where I sh
 - Four attractions with photos and descriptions.
 - Responsive attraction cards.
 
+![Explore Places to Visit](assets/screenshots/explore-places.png)
+
 **2. View Attraction Opening Hours**
 
 As a visitor, I want to see the opening hours, so that I can plan my visit.
