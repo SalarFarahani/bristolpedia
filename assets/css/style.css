@@ -179,6 +179,12 @@ h6 {
   }
 }
 
+/* Contact section */
+#contact {
+    background-color: #F7F5F0;
+    padding: 4rem 0;
+}
+
 /* Footer background and text colours */
 footer {
   background-color: #173b42;
