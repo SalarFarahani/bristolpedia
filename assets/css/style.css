@@ -196,6 +196,15 @@ h6 {
     display: block;
 }
 
+/* Improve demo notice layout on mobile */
+@media screen and (max-width: 767px) {
+    .contact-notice {
+        max-width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 /* Footer background and text colours */
 footer {
   background-color: #173b42;
