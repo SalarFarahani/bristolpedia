@@ -239,6 +239,19 @@ I tested the following features:
 - Back to Top link: Pass
 - Responsive attraction cards and table: Pass
 
+### Contact Form Testing
+
+I tested the contact form on mobile and desktop.
+
+- Name field: Pass
+- Email field: Pass
+- Message field: Pass
+- Send Message link: Pass
+- Demo notice appears after clicking: Pass
+- Responsive layout: Pass
+
+The form is a demo only. It does not send or save messages.
+
 ### Bugs Fixed
 
 - Fixed navigation spacing.
