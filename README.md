@@ -163,6 +163,16 @@ It includes the address, opening hours and official website link for each attrac
 
 On desktop screens, the information is displayed in a table. On smaller screens, it changes to a card-style layout to make the information easier to read.
 
+### Contact Us
+
+I added a simple contact form using HTML and Bootstrap.
+
+The form includes Name, Email and Message fields.
+
+When visitors click Send Message, a demo notice appears using CSS.
+
+The form is for demonstration only. No messages are sent or saved.
+
 ### Footer
 
 The footer includes the website name, copyright information and a "Back to Top" link.
