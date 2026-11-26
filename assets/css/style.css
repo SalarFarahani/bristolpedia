@@ -186,6 +186,16 @@ h6 {
   scroll-margin-top: 70px;
 }
 
+/* Hide the contact notice by default */
+#contact-notice {
+    display: none;
+}
+
+/* Show the notice when the Send Message link is clicked */
+#contact-notice:target {
+    display: block;
+}
+
 /* Footer background and text colours */
 footer {
   background-color: #173b42;
