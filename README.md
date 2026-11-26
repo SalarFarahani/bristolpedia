@@ -67,6 +67,8 @@ As a visitor, I want to see the entry fees, so that I can decide which places I 
 - Entry fees displayed for every attraction.
 - Free attractions clearly marked.
 
+![Entry Fees for Bristol Attractions](assets/screenshots/explore-places.png)
+
 ### Should Have (Not Implemented)
 
 The following features were planned but not completed because of time limits:
