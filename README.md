@@ -216,6 +216,15 @@ I tested Bristolpedia to make sure the website works correctly on different devi
 - **HTML:** Tested with W3C HTML Validator. No errors or warnings.
 - **CSS:** Tested with W3C CSS Validator. No errors.
 
+### Final Validation
+
+After adding the Contact Us section, I tested the HTML and CSS again.
+
+- HTML: No errors or warnings.
+- CSS: No errors.
+
+Both files passed the final validation.
+
 ### Responsive Testing
 
 I used Chrome Developer Tools to test the website.
