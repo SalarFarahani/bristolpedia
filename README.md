@@ -80,6 +80,8 @@ As a visitor, I want to use a contact form, so that I can enter my details and s
 - A demo notice appears when Send Message is clicked.
 - No information is actually sent or saved.
 
+![Contact Us Form](assets/screenshots/contact-form.png)
+
 ### Should Have (Not Implemented)
 
 The following features were planned but not completed because of time limits:
