@@ -262,6 +262,7 @@ The form is a demo only. It does not send or save messages.
 
 - The mobile menu does not close automatically after selecting a link.
 - Opening hours and prices may change. Visitors should check official websites before visiting.
+- The contact form is a demo. It does not send or save messages, and the fields are not validated when Send is clicked.
 
 ## Deployment
 
