@@ -69,6 +69,17 @@ As a visitor, I want to see the entry fees, so that I can decide which places I 
 
 ![Entry Fees for Bristol Attractions](assets/screenshots/explore-places.png)
 
+### Should Have
+
+**4. Contact Us Form (Completed)**
+
+As a visitor, I want to use a contact form, so that I can enter my details and see a demo response.
+
+- Name, Email and Message fields.
+- Responsive form using Bootstrap.
+- A demo notice appears when Send Message is clicked.
+- No information is actually sent or saved.
+
 ### Should Have (Not Implemented)
 
 The following features were planned but not completed because of time limits:
