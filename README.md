@@ -58,6 +58,8 @@ As a visitor, I want to see the opening hours, so that I can plan my visit.
 - Opening hours for all four attractions.
 - Links to official websites.
 
+![View Attraction Opening Hours](assets/screenshots/opening-hours.png)
+
 **3. View Attraction Entry Fees**
 
 As a visitor, I want to see the entry fees, so that I can decide which places I can afford to visit.
