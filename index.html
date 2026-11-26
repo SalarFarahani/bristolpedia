@@ -19,37 +19,37 @@
   </head>
   <body>
     <!-- Navigation bar -->
-     <nav data-bs-theme="dark" class="navbar navbar-expand-lg sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#home">Bristolpedia</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#places-to-visit">Places to Visit</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#plan-your-visit">Plan Your Visit</a>
-              </li>
-            </ul>
-          </div>
+    <nav data-bs-theme="dark" class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">Bristolpedia</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#places-to-visit">Places to Visit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#plan-your-visit">Plan Your Visit</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
     <!-- Header section -->
     <header id="home">
       <section id="hero">
@@ -174,6 +174,7 @@
                       href="https://cliftonbridge.org.uk/"
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label="Visit the official Clifton Suspension Bridge website"
                       >Visit Website</a
                     >
                   </td>
@@ -194,6 +195,7 @@
                       href="https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-open-spaces/parks-and-estates/brandon-hill"
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label="Visit the official Cabot Tower information page"
                       >Visit Website</a
                     >
                   </td>
@@ -214,6 +216,7 @@
                       href="https://www.bristolmuseums.org.uk/m-shed/plan-your-visit/"
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label="Visit the official M Shed museum website"
                       >Visit Website</a
                     >
                   </td>
@@ -234,6 +237,7 @@
                       href="https://www.bristol.gov.uk/st-nicholas-markets"
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label="Visit the official St Nicholas Market website"
                       >Visit Website</a
                     >
                   </td>
@@ -243,13 +247,24 @@
           </div>
         </div>
       </section>
+      <!-- Contact section -->
+      <section id="contact">
+        <div class="container">
+          <h2 class="text-center mb-4 display-6">Contact Us</h2>
+          <p class="text-center">
+            Have a question or suggestion? Get in touch with us.
+          </p>
+        </div>
+      </section>
     </main>
 
     <!-- Footer section -->
     <footer class="py-4">
       <div class="container d-flex justify-content-between align-items-center">
         <p class="mb-0">© 2026 Bristolpedia</p>
-        <a href="#home">Back to Top <i class="fa-solid fa-arrow-up" aria-hidden="true"></i></a>
+        <a href="#home"
+          >Back to Top <i class="fa-solid fa-arrow-up" aria-hidden="true"></i
+        ></a>
       </div>
     </footer>
     <script
