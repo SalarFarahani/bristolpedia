@@ -72,9 +72,9 @@ h6 {
 }
 /* Hero heading and lead text styling */
 #hero .lead {
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.6;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6;
 }
 
 /* Hero CTA button colours */
@@ -181,8 +181,9 @@ h6 {
 
 /* Contact section */
 #contact {
-    background-color: #F7F5F0;
-    padding: 4rem 0;
+  background-color: #f7f5f0;
+  padding: 4rem 0;
+  scroll-margin-top: 70px;
 }
 
 /* Footer background and text colours */
@@ -193,10 +194,10 @@ footer {
 
 /* Footer link colour */
 footer a {
-  color: #F7F5F0;
+  color: #f7f5f0;
 }
 
 /* Footer link hover colour */
 footer a:hover {
-  color: #D4A64A;
+  color: #d4a64a;
 }
